@@ -1,0 +1,55 @@
+Creating a New Repository
+Creating a New Repository on GitHub
+Creating a New Local Repository
+Committing
+Adding to the Staging Area
+Writing the Commit
+Pulling
+Fetching
+Merging
+Pushing
+Ignoring
+Ignoring versioned files
+
+
+
+cloning with git hub
+	git clone https://github.com/radhika2731/radhika2731.git
+get all branch in git
+	git fetch all
+see what branch you are on
+	git status
+see local branch 
+	git branch
+see remote branch
+	git branch -r
+see all local and remote branch
+	git branch -a
+switch to another branch
+	git checkout branchname
+switch to another branch that came from remote repos
+	get all branches from remote
+		git pull
+	switch to another branch
+		git checkout --track origin/branchname
+push to a branch
+	git push -u origin branchname
+	git push -u origin HEAD
+Merge a Branch
+	git merge branchname
+Delete a branch
+	git branch -d branchname
+	
+Check what you modified in file
+	git diff
+add changes in file
+	git add filename
+commit the file
+	git commit -m"drop msg"
+push all changes on git
+	git push
+
+	
+
+
+
